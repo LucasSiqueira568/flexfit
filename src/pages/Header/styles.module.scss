@@ -1,0 +1,71 @@
+.header {
+    background: var(--primary-bg);
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 1.6rem;
+        color: var(--bg-write);
+        margin-left: 7rem;
+    }
+
+
+    .containerItems {
+        width: 80vw;
+        display: flex;
+    }
+
+    .searchProducts {
+        width: 40vw;
+        height: 6vh;
+        flex-grow: 1;
+        
+        input {
+            width: 40vw;
+            height: 100%;
+            outline: none;
+            border-radius: 3px 0px 0px 3px;
+            border: none;
+            font-size: 0.8rem;
+        }
+
+        input::placeholder {
+            padding-left: 7px;
+            color: var(--font-gray-color);
+            font-weight: 400;
+        }
+
+        button {
+            height: 100%;
+            width: 7vw;
+            margin-left: 0;
+            border-radius: 0px 3px 3px 0px;
+            border: none;
+            cursor: pointer;
+            background: var(--second-bg);
+            color: var(--font-black-color);
+        }
+    }
+    
+    .iconsHeader {
+        width: 20vw;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+
+        a {
+            font-size: 1.3rem;
+            color: var(--font-gray-color);
+            padding: 1vw;
+            transition: 0.5ms;
+        }
+
+        a:hover {
+            color: var(--second-bg);
+        }
+    }
+
+
+}

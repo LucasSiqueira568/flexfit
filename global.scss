@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-bg: #34364b;
+    --primary-black-bg: #222437;
+    --second-bg: #ffb63c;
+    --buttons-bg: #f57e68;
+    --bg-write: #ffffff;
+    --bg-product-card: #f4f5f7;
+    --font-black-color: #2e2f2f;
+    --font-gray-color: #c6c7c4;
+    --font-blue-color: #75b3ed;
+  }
+  
+  body {
+    background: var(--bg-write);
+  }

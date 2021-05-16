@@ -1,0 +1,31 @@
+.containerItems {
+    background: var(--bg-write);
+    height: 10vh;
+    box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+
+    ul {
+        display: flex;
+        align-items: center;
+        margin-left: 6rem;
+
+        li {
+            margin: 1vw;
+
+            a {
+                color: var(--font-black-color);
+                font-weight: 500;
+                font-size: 1rem;
+                transition: 0.5ms;
+            }
+
+            a:hover {
+                color: var(--buttons-bg);
+                border-bottom: 2px solid var(--buttons-bg);
+            }
+        }
+    }
+
+
+}
