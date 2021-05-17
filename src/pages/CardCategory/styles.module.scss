@@ -1,0 +1,309 @@
+.categoryIcons {
+    // background: var(--bg-product-card);
+    width: 82.6vw;
+    height: 25vh;
+    margin-left: 7rem;
+    display: flex;
+    align-items: center;
+
+    .cardIcons {
+        width: 18vw;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background: var(--bg-write);
+        border-radius: 3px;
+        margin: 0px 0.2rem;
+        cursor: pointer;
+        transition: 0.5ms;
+        
+        .cardIcons:hover {
+            box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background: var(--buttons-bg);
+            margin: 0.7rem 0;
+            align-items: center;
+            justify-content: center;
+            color: var(--bg-write);
+        }
+
+
+        h2 {
+            color: var(--font-black-color);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        p {
+            color: var(--font-gray-color);
+            font-size: 0.8rem;
+            margin-top: 0.3rem;
+        }
+    }
+
+    .cardLiving {
+        width: 18vw;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background: var(--bg-write);
+        border-radius: 3px;
+        margin: 0px 0.2rem;
+        cursor: pointer;
+        transition: 0.5ms;
+        
+        .cardIcons:hover {
+            box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background: var(--bg-living-color);
+            margin: 0.7rem 0;
+            align-items: center;
+            justify-content: center;
+            color: var(--bg-write);
+        }
+
+
+        h2 {
+            color: var(--font-black-color);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        p {
+            color: var(--font-gray-color);
+            font-size: 0.8rem;
+            margin-top: 0.3rem;
+        }
+    }
+
+    .cardBed {
+        width: 18vw;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background: var(--bg-write);
+        border-radius: 3px;
+        margin: 0px 0.2rem;
+        cursor: pointer;
+        transition: 0.5ms;
+        
+        .cardIcons:hover {
+            box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background: var(--bg-bed-color);
+            margin: 0.7rem 0;
+            align-items: center;
+            justify-content: center;
+            color: var(--bg-write);
+        }
+
+
+        h2 {
+            color: var(--font-black-color);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        p {
+            color: var(--font-gray-color);
+            font-size: 0.8rem;
+            margin-top: 0.3rem;
+        }
+    }
+
+    .cardWorking {
+        width: 18vw;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background: var(--bg-write);
+        border-radius: 3px;
+        margin: 0px 0.2rem;
+        cursor: pointer;
+        transition: 0.5ms;
+        
+        .cardIcons:hover {
+            box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background: var(--bg-working-color);
+            margin: 0.7rem 0;
+            align-items: center;
+            justify-content: center;
+            color: var(--bg-write);
+        }
+
+
+        h2 {
+            color: var(--font-black-color);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        p {
+            color: var(--font-gray-color);
+            font-size: 0.8rem;
+            margin-top: 0.3rem;
+        }
+    }
+
+    .cardLighting {
+        width: 18vw;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background: var(--bg-write);
+        border-radius: 3px;
+        margin: 0px 0.2rem;
+        cursor: pointer;
+        transition: 0.5ms;
+        
+        .cardIcons:hover {
+            box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background: var(--bg-lighting-color);
+            margin: 0.7rem 0;
+            align-items: center;
+            justify-content: center;
+            color: var(--bg-write);
+        }
+
+
+        h2 {
+            color: var(--font-black-color);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        p {
+            color: var(--font-gray-color);
+            font-size: 0.8rem;
+            margin-top: 0.3rem;
+        }
+    }
+
+    .cardVamfast {
+        width: 18vw;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background: var(--bg-write);
+        border-radius: 3px;
+        margin: 0px 0.2rem;
+        cursor: pointer;
+        transition: 0.5ms;
+        
+        .cardIcons:hover {
+            box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background: var(--bg-vimfast-color);
+            margin: 0.7rem 0;
+            align-items: center;
+            justify-content: center;
+            color: var(--bg-write);
+        }
+
+
+        h2 {
+            color: var(--font-black-color);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        p {
+            color: var(--font-gray-color);
+            font-size: 0.8rem;
+            margin-top: 0.3rem;
+        }
+    }
+
+    .cardTableware {
+        width: 18vw;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background: var(--bg-write);
+        border-radius: 3px;
+        margin: 0px 0.2rem;
+        cursor: pointer;
+        transition: 0.5ms;
+        
+        .cardIcons:hover {
+            box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 0.2);
+
+    }
+
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            background: var(--bg-tableware-color);
+            margin: 0.7rem 0;
+            align-items: center;
+            justify-content: center;
+            color: var(--bg-write);
+        }
+
+
+        h2 {
+            color: var(--font-black-color);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        p {
+            color: var(--font-gray-color);
+            font-size: 0.8rem;
+            margin-top: 0.3rem;
+        }
+    }
+}
