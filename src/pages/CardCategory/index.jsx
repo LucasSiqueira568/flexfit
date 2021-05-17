@@ -5,8 +5,8 @@ export default function CardCategory() {
         <div>
             <div>
                 <img src="" alt="" />
-                <h2>Title</h2>
-                <p>Paragrafo</p>
+                <h2>Casa e Banho</h2>
+                <p>200 Produtos</p>
             </div>
         </div>
     )
