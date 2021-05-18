@@ -1,0 +1,36 @@
+.cardContext {
+    width: 82.5vw;
+    height: 40vh;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    
+    div {
+        background: var(--bg-product-card);
+        width: 20vw;
+        height: 35vh;
+        margin: 0px 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: relative;
+        border-radius: 3px;
+
+        
+        i {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            color: var(--font-gray-color);
+            font-size: 1.3rem;
+            
+        }
+        
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
+    }
+}
