@@ -1,0 +1,85 @@
+.cardContext {
+    width: 80.9vw;
+    height: 10vh;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .cardTitle {
+        width: 20vw;
+
+        h1 {
+            font-size: 1.3rem;
+            color: var(--font-black-color);
+        }
+
+    }
+
+    .cardListCategory {
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                margin: 0px 0.5rem;
+                
+                a {
+                    font-size: 0.9rem;
+                    color: var(--font-gray-color);
+                    transition: 0.5ms;
+                    font-weight: 400;
+
+                }
+
+                a:hover {
+                    color: var(--font-black-color);
+                }
+            }
+        }
+
+        .cardButton {
+            display: flex;
+            align-items: center;
+            margin: 0px 0.5rem;
+
+            button:nth-child(1) {
+                background: var(--bg-write);
+                box-shadow: 3px 0px 4px 0px rgba(0, 0, 0, 0.2);
+                width: 2.5rem;
+                height: 2.5rem;
+                outline: none;
+                cursor: pointer;
+                border: none;
+                border-radius: 2px;
+                color: var(--font-black-color);
+                transition: 0.5ms;
+            }
+            
+            button:nth-child(2) {
+                background: var(--bg-write);
+                box-shadow: 3px 0px 4px 0px rgba(0, 0, 0, 0.2);
+                width: 2.5rem;
+                height: 2.5rem;
+                outline: none;
+                cursor: pointer;
+                border: none;
+                border-radius: 2px;
+                color: var(--font-black-color);
+                margin-left: 0.5rem;
+                transition: 0.5ms;
+            }
+            
+            button:hover {
+                box-shadow: 3px 0px 4px 0px rgb(244, 124, 100);
+                color: var(--bg-write);
+                background: var(--buttons-bg);
+
+            }
+        }
+    }
+}
